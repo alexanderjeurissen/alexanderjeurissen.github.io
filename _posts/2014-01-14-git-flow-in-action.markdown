@@ -2,6 +2,7 @@
 layout: post
 title:  "Git-flow in action!"
 date:   2014-01-14 00:01:19
+author: "Alexander Jeurissen"
 categories: tutorials
 ---
 
