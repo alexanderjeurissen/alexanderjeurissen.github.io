@@ -199,7 +199,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #0A0A0A;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -434,14 +434,15 @@ fieldset {
   margin-bottom: 1.45rem;
 }
 blockquote {
+  background-color: hsla(0, 0%, 0%, 0.04);
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   margin-bottom: 1.45rem;
+  padding: 1.45rem;
+  border-left: 4px solid hsla(0, 0%, 0%, 0.07);
+  border-radius: 3px;
+
 }
 form {
   margin-left: 0;
