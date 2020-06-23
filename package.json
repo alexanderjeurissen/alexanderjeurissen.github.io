@@ -16,10 +16,13 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-flex-primitive": "^1.0.8",
+    "react-grid-primitive": "^1.0.3",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "typescript": "^3.9.5"
   },
   "keywords": [
     "gatsby"
