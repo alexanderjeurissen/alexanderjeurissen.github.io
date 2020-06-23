@@ -7,6 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F7F8F9;
 }
 article,
 aside,
@@ -96,6 +97,8 @@ pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
+  background-color: #073642;
+  color: #839496;
 }
 figure {
   margin: 1em 40px;
@@ -403,7 +406,8 @@ pre {
   margin-bottom: 1.45rem;
   font-size: 0.85rem;
   line-height: 1.42;
-  background: hsla(0, 0%, 0%, 0.04);
+  background-color: #073642;
+  color: #839496;
   border-radius: 3px;
   overflow: auto;
   word-wrap: normal;
@@ -442,6 +446,7 @@ blockquote {
   padding: 1.45rem;
   border-left: 4px solid hsla(0, 0%, 0%, 0.07);
   border-radius: 3px;
+  font-style: italic;
 
 }
 form {
@@ -591,7 +596,8 @@ td:last-child {
 }
 tt,
 code {
-  background-color: hsla(0, 0%, 0%, 0.04);
+  background-color: #073642;
+  color: #839496;
   border-radius: 3px;
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
@@ -602,6 +608,10 @@ code {
 pre code {
   background: none;
   line-height: 1.42;
+}
+p code {
+  background-color: hsla(0, 0%, 0%, 0.04);
+  color: inherit;
 }
 code:before,
 code:after,
